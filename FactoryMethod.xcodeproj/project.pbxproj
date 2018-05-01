@@ -12,6 +12,10 @@
 		EEE4A4E520988E0300044C79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A4E420988E0300044C79 /* Assets.xcassets */; };
 		EEE4A4E820988E0300044C79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE4A4E620988E0300044C79 /* Main.storyboard */; };
 		EEE4A4EB20988E0300044C79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4EA20988E0300044C79 /* main.m */; };
+		EEE4A4F420988E2900044C79 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4F320988E2900044C79 /* Product.m */; };
+		EEE4A4F720988E3900044C79 /* ConcreteProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4F620988E3900044C79 /* ConcreteProduct.m */; };
+		EEE4A4FA20988E4700044C79 /* Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4F920988E4700044C79 /* Creator.m */; };
+		EEE4A4FD20988E5B00044C79 /* ConcreteCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE4A4FC20988E5B00044C79 /* ConcreteCreator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,14 @@
 		EEE4A4E920988E0300044C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEE4A4EA20988E0300044C79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEE4A4EC20988E0300044C79 /* FactoryMethod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FactoryMethod.entitlements; sourceTree = "<group>"; };
+		EEE4A4F220988E2900044C79 /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		EEE4A4F320988E2900044C79 /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		EEE4A4F520988E3900044C79 /* ConcreteProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteProduct.h; sourceTree = "<group>"; };
+		EEE4A4F620988E3900044C79 /* ConcreteProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteProduct.m; sourceTree = "<group>"; };
+		EEE4A4F820988E4700044C79 /* Creator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creator.h; sourceTree = "<group>"; };
+		EEE4A4F920988E4700044C79 /* Creator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creator.m; sourceTree = "<group>"; };
+		EEE4A4FB20988E5B00044C79 /* ConcreteCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteCreator.h; sourceTree = "<group>"; };
+		EEE4A4FC20988E5B00044C79 /* ConcreteCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteCreator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,14 @@
 			children = (
 				EEE4A4DE20988E0300044C79 /* AppDelegate.h */,
 				EEE4A4DF20988E0300044C79 /* AppDelegate.m */,
+				EEE4A4F220988E2900044C79 /* Product.h */,
+				EEE4A4F320988E2900044C79 /* Product.m */,
+				EEE4A4F520988E3900044C79 /* ConcreteProduct.h */,
+				EEE4A4F620988E3900044C79 /* ConcreteProduct.m */,
+				EEE4A4F820988E4700044C79 /* Creator.h */,
+				EEE4A4F920988E4700044C79 /* Creator.m */,
+				EEE4A4FB20988E5B00044C79 /* ConcreteCreator.h */,
+				EEE4A4FC20988E5B00044C79 /* ConcreteCreator.m */,
 				EEE4A4E120988E0300044C79 /* ViewController.h */,
 				EEE4A4E220988E0300044C79 /* ViewController.m */,
 				EEE4A4E420988E0300044C79 /* Assets.xcassets */,
@@ -140,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE4A4F720988E3900044C79 /* ConcreteProduct.m in Sources */,
+				EEE4A4FD20988E5B00044C79 /* ConcreteCreator.m in Sources */,
 				EEE4A4E320988E0300044C79 /* ViewController.m in Sources */,
+				EEE4A4F420988E2900044C79 /* Product.m in Sources */,
 				EEE4A4EB20988E0300044C79 /* main.m in Sources */,
+				EEE4A4FA20988E4700044C79 /* Creator.m in Sources */,
 				EEE4A4E020988E0300044C79 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

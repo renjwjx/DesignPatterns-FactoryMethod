@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ConcreteCreator.h"
+#import "ConcreteProduct.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    ConcreteCreator* creator1 = [[ConcreteCreator alloc] init];
+    ConcreteProduct* product1 = [creator1 factoryMethod];
+    
 }
 
 
